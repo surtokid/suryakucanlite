@@ -1,0 +1,21 @@
+{
+  "id": "/suryakucan/",
+  "name": "SuryaKuCan",
+  "short_name": "SuryaKuCan",
+  "description": "Aplikasi internal Suryatokoku dan Suryacantik",
+  "lang": "id-ID",
+  "start_url": "/suryakucan/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#ec4899",
+  "icons": [
+    {
+      "src": "./Logo%20SuryaKuCan.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
