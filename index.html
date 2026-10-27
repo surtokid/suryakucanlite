@@ -1,0 +1,24 @@
+<!DOCTYPE html><html lang="id"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>SuryaKuCan</title><link rel="icon" type="image/png" href="./Logo%20SuryaKuCan.png"><link rel="apple-touch-icon" href="./Logo%20SuryaKuCan.png"><link rel="manifest" href="./manifest.json?v=suryakucan-v4"><meta name="theme-color" content="#ec4899"><meta name="application-name" content="SuryaKuCan"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="SuryaKuCan"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/><script src="https://cdn.tailwindcss.com"></script><script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Plus Jakarta Sans', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          },
+          animation: {
+            blob: "blob 7s infinite",
+          },
+          keyframes: {
+            blob: {
+              "0%": { transform: "translate(0px, 0px) scale(1)" },
+              "33%": { transform: "translate(30px, -50px) scale(1.1)" },
+              "66%": { transform: "translate(-20px, 20px) scale(0.9)" },
+              "100%": { transform: "translate(0px, 0px) scale(1)" },
+            }
+          }
+        }
+      }
+    }
+  </script><script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script><script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script><style>body{background-color:#F8FAFC;color:#1E293B;font-family:'Inter',sans-serif;-webkit-tap-highlight-color:transparent;overflow-x:hidden;}.font-display{font-family:'Plus Jakarta Sans',sans-serif;}.font-mono-numbers{font-family:'JetBrains Mono',monospace;font-variant-numeric:tabular-nums;}::-webkit-scrollbar{width:4px;height:4px;}::-webkit-scrollbar-track{background:transparent;}::-webkit-scrollbar-thumb{background:#cbd5e1;border-radius:9999px;}::-webkit-scrollbar-thumb:hover{background:#94a3b8;}.leaflet-container{width:100%;height:100%;border-radius:1.5rem;z-index:10;}.mirror-video{transform:scaleX(-1);}.animation-delay-2000{animation-delay:2s;}.animation-delay-4000{animation-delay:4s;}@media (prefers-reduced-motion:reduce),(max-width:640px){.animate-blob{animation:none !important;}.fixed.inset-0.z-\[-1\]>div{filter:none !important;opacity:0.35;}}</style></head><body class="bg-slate-50 min-h-screen text-slate-800 antialiased selection:bg-violet-500 selection:text-white relative"><div class="fixed inset-0 z-[-1] overflow-hidden pointer-events-none opacity-60"><div class="absolute top-[-10%] left-[-10%] w-96 h-96 bg-violet-300/40 rounded-full mix-blend-multiply filter blur-3xl animate-blob"></div><div class="absolute top-[20%] right-[-10%] w-96 h-96 bg-fuchsia-300/40 rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-2000"></div><div class="absolute bottom-[-20%] left-[20%] w-96 h-96 bg-orange-300/40 rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-4000"></div></div><div id="root"></div><script type="module" src="./src/main.jsx"></script></body></html>
